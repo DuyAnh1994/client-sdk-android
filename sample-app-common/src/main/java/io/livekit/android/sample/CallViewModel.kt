@@ -146,12 +146,12 @@ class CallViewModel(
         while (true) {
             delay(10000)
             if (pub.subscribed) {
-                val statsReport = pub.track?.getRTCStats() ?: continue
-                Timber.e { "stats for ${pub.sid}:" }
-
-                for (entry in statsReport.statsMap) {
-                    Timber.e { "${entry.key} = ${entry.value}" }
-                }
+//                val statsReport = pub.track?.getRTCStats() ?: continue
+//                Timber.e { "stats for ${pub.sid}:" }
+//
+//                for (entry in statsReport.statsMap) {
+//                    Timber.e { "${entry.key} = ${entry.value}" }
+//                }
             }
         }
 

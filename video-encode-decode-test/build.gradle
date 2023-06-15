@@ -73,6 +73,7 @@ android {
 }
 
 dependencies {
+    implementation "io.livekit:livekit-android:1.1.10"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation deps.coroutines.lib

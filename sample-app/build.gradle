@@ -37,7 +37,7 @@ dependencies {
     // Sample-app-common contains the livekit-android-sdk dependency and others
     // as well as classes common to both sample apps.
     implementation project(":sample-app-common")
-
+    implementation "io.livekit:livekit-android:1.1.10"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation deps.coroutines.lib

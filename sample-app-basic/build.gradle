@@ -35,7 +35,7 @@ dependencies {
 
     // If building the sample app outside the context of this repo, replace the following with:
     // implementation "io.livekit:livekit-android:<version>"
-    implementation project(":livekit-android-sdk")
+    implementation "io.livekit:livekit-android:1.1.10"
 
     implementation "androidx.core:core-ktx:${versions.androidx_core}"
     implementation 'androidx.appcompat:appcompat:1.4.2'

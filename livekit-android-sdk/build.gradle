@@ -135,6 +135,10 @@ dokkaHtml {
 }
 
 dependencies {
+    implementation "io.livekit:livekit-android:1.1.10"
+
+
+
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation deps.coroutines.lib
     implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0'
